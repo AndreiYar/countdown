@@ -1,4 +1,8 @@
 .App {
+  align-items: center;
+  background-color: #3263eb;
+  height: 100vh;
+  color: white;
   text-align: center;
 }
 
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #3263eb;
   min-height: 100px;
   display: flex;
   flex-direction: column;
@@ -22,6 +26,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-title {
+  font-size: 130px;
+  font-weight: 900;
 }
 
 .App-link {

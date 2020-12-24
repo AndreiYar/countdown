@@ -9,11 +9,25 @@ The below component was designed to count down the days until our CTO's birthday
 * What would happen to the current code if the date were changed, the page layout was changed or the format was changed?
 * Does the current implementation follow best practices for HTML, CSS, JS and React?
 
+1) If the date changed, then the seconds would become negative.
+ If you change the date format, it will be displayed Nan instead of the number.
+2) Modern js features are not used.
+  There is the latest version of the react, you can rewrite it on hooks.
+
 **Spice it up:** Let's be honest, this countdown could be a whole lot more exciting.
 
 * What could you do to create a greater sense of urgency?
 * How would you make this countdown more aesthetically pleasing?
 * Trust your design instincts, and explain how your design choices impact the user experience
+
+1) Add a graph composing in the form of an illustration or a background image
+2) Increase the timer font in the ratio of the title.
+3) Change the color palette, add a contrasting color, for a better perception of information.
+4) Add a title, which event is counting down to.
+5) Work with typography to get strong hierarchy of content.
+6) Structuring information for better user perception.
+ Determine the purpose of the page by adding a description, users will easily understand which event is counting down to.
+  By increasing the font pairs, the end user will immediately see the timer, without additional effort.
 
 ## Getting Started with Create React App
 

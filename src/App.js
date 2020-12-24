@@ -1,15 +1,17 @@
+import React from 'react';
 import './App.css';
 import './style/Countdown.css';
+import { BIRTHDAY, TITLE } from './config';
 import Countdown from './components/Countdown';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Countdown</h1>
+        <div className="App-title">{TITLE}</div>
       </header>
       <div className="content">
-        <Countdown date='2020-12-24T00:00:00' />,
+        <Countdown date={BIRTHDAY} />
       </div>
     </div>
   );

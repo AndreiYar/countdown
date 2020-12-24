@@ -1,3 +1,27 @@
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #2b5ae8;
+  border-radius: 25px;
+}
 .countdown-col {
-  padding-right: 10px;
+  width: 25%;
+}
+.time-title {
+  font-size: 60px;
+  font-weight: 900;
+}
+.time-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+.time-subtitle {
+  font-size: 20px;
 }
